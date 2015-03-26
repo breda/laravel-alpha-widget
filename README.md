@@ -2,7 +2,7 @@
 # AlphaWidget — Widgets For Laravel 5
 ----------------------------------------
 
-[![Total Downloads](https://poser.pugx.org/leaphly/cart-bundle/downloads.svg)](https://packagist.org/packages/leaphly/cart-bundle)
+[![Total Downloads](https://poser.pugx.org/leaphly/cart-bundle/downloads.svg)](https://packagist.org/packages/breda/laravel-alpha-widget)
 
 
 This is a very simple, easy to use Widget manager for [Laravel 5](http://laravel.com) (A version for Laravel 4.2 might come).
