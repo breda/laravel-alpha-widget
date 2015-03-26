@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "BReda\\AlphaWidget": "src/"
+      "BReda\\AlphaWidget\\": "src/"
     },
     "files": [
       "src/helpers.php"
