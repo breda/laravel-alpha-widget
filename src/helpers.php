@@ -9,7 +9,7 @@ if( ! function_exists('alphaWidget') )
 	 * @param  array  			$arguments
 	 * @return mixed
 	 */
-	function alphaWidget($alias = null, $arguments = array())
+	function alphaWidget($alias = null, $arguments = [])
 	{
 		if( !is_null($alias) )
 			return alphaWidget()->render($alias, $arguments);

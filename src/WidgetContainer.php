@@ -23,7 +23,7 @@ class WidgetContainer
 	 * 
 	 * @var array
 	 */
-	protected $aliases = array();
+	protected $aliases = [];
 
 	/**
 	 * Widget Bindings. Key-Value of all Widget aliases, and class names.
@@ -31,7 +31,7 @@ class WidgetContainer
 	 * 
 	 * @var array
 	 */
-	protected $bindings = array();
+	protected $bindings = [];
 
 	/**
 	 * Binds a Widget to the container.

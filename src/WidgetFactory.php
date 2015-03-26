@@ -77,7 +77,7 @@ class WidgetFactory extends WidgetContainer
 	 * @throws IncorrectWidgetClassException
 	 * @return AlphaWidgetContract
 	 */
-	public function make($alias, $arguments = array())
+	public function make($alias, $arguments = [])
 	{
 		$widgetClass = $this->getWidgetClass($alias);
 		$reflector   = new ReflectionClass($widgetClass);
@@ -99,7 +99,7 @@ class WidgetFactory extends WidgetContainer
 	 * @param  array  $arguments
 	 * @return mixed
 	 */
-	public function render($alias, $arguments = array())
+	public function render($alias, $arguments = [])
 	{
 		if( ! $this->bindingExists($alias) )
 			throw new WidgetAliasNotFound("Widget alias [$alias] does not exist.");
@@ -118,7 +118,7 @@ class WidgetFactory extends WidgetContainer
 	 * @param  array  $arguments
 	 * @return mixed
 	 */
-	public function __call($widgetAlias, $arguments = array())
+	public function __call($widgetAlias, $arguments = [])
 	{
 		return $this->render($widgetAlias, $arguments);
 	}
