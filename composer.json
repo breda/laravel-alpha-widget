@@ -2,6 +2,7 @@
   "name": "breda/laravel-alphaWidget",
   "description": "Simple Widget Manager For Laravel 5",
   "homepage": "",
+  "time": "2015-03-26",
   "require": {
     "illuminate/support": "5.0.*",
     "illuminate/contracts": "5.0.*",
