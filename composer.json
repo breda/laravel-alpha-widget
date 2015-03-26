@@ -3,10 +3,10 @@
   "description": "Simple Widget Manager For Laravel 5",
   "homepage": "",
   "require": {
+    "illuminate/support": "5.0.*",
     "illuminate/contracts": "5.0.*",
-    "illuminate/support": "5.0.*"
+    "illuminate/container":"5.0.*"
   },
-  "license": "MIT",
   "authors": [
     {
       "name": "Reda Bouchaala",
