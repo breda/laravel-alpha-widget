@@ -1,7 +1,7 @@
 {
   "name": "breda/laravel-alpha-widget",
   "description": "Simple Widget Manager For Laravel 5",
-  "homepage": "",
+  "homepage": "https://github.com/breda/laravel-alpha-widget",
   "time": "2015-03-26",
   "require": {
     "illuminate/support": "5.0.*",
@@ -18,8 +18,8 @@
   ],
   "support": {
       "email": "bouchaala.reda@gmail.com",
-      "issues": "https://github.com/breda/laravel-alphaWidget/issues",
-      "source": "https://github.com/breda/laravel-alphaWidget"
+      "issues": "https://github.com/breda/laravel-alpha-widget/issues",
+      "source": "https://github.com/breda/laravel-alpha-widget"
   },
   "autoload": {
     "psr-4": {
