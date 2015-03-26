@@ -1,2 +1,19 @@
 <?php
-// Custom Helpers
+
+if( ! function_exists('alphaWidget') )
+{
+	/**
+	 * Render a Widget, or just get the WidgetFactory
+	 * 
+	 * @param  string|null 		$alias
+	 * @param  array  			$arguments
+	 * @return mixed
+	 */
+	function alphaWidget($alias = null, $arguments = array())
+	{
+		if( !is_null($alias) )
+			return alphaWidget()->render($alias, $arguments);
+
+		return app('alphawidget.factory');
+	}
+}
