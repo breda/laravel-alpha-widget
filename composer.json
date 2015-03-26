@@ -16,6 +16,11 @@
       "role": "Developer"
     }
   ],
+  "support": {
+      "email": "bouchaala.reda@gmail.com",
+      "issues": "https://github.com/breda/laravel-alphaWidget/issues",
+      "source": "https://github.com/breda/laravel-alphaWidget"
+  },
   "autoload": {
     "psr-4": {
       "BReda\\AlphaWidget": "src/"
