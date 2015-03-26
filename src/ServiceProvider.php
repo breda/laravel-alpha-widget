@@ -32,7 +32,7 @@ class ServiceProvider extends BaseServiceProvider
      */
     protected function publishConfig()
     {
-        $source = realpath(__DIR__ . '/config/alphaWidget.php');
+        $source = realpath(__DIR__ . '/../config/alphaWidget.php');
 
         $this->publishes([$source => config_path('alphaWidget.php')]);
     }
