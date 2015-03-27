@@ -12,7 +12,7 @@ This is a very simple, easy to use Widget manager for [Laravel 5](http://laravel
 
 First, install the package via [Composer](https://getcomposer.org/).
 ```bash
-composer require breda/laravel-alphaWidget
+$ composer require breda/laravel-alphaWidget
 ```
 
 in the `config/app.php` file, add the Service Provider
@@ -23,12 +23,22 @@ in the `config/app.php` file, add the Service Provider
 		'BReda\AlphaWidget\ServiceProvider',
 	]
 ```
-And lastly, register the Alias
+
+Then, register the alias :
+
 ```php
 	'aliases' => [
 		// Other aliases...
-		'BReda\AlphaWidget\Facades\AlphaWidget',
+		'AlphaWidget' => 'BReda\AlphaWidget\Facades\AlphaWidget',
+		// Of course, you can name the alias to whatever you want.
+		// ex:
+		// 'Widget' => 'BReda\AlphaWidget\Facades\AlphaWidget',
 	]
+```
+And, lastly... publish the AlphaWidget configuration file to your `config` directory:
+
+```bash
+$ php artisan vendor:publish
 ```
 
 And you're ready to use AlphaWidget!
