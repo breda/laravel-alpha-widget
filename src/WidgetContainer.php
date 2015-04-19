@@ -78,7 +78,7 @@ class WidgetContainer
 			throw new WidgetAliasNotFound("Widget alias [$alias] does not exist.");
 
 		// Removing bindings
-		array_diff($this->aliases, [$alias]);	
+		$this->aliases = array_diff($this->aliases, [$alias]);
 		unset($this->bindings[$alias]);
 	}
 
