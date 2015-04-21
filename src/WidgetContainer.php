@@ -31,7 +31,7 @@ class WidgetContainer
 	 * 
 	 * @var array
 	 */
-	protected $bindings = [];
+	public $bindings = [];
 
 	/**
 	 * Binds a Widget to the container.

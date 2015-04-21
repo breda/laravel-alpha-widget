@@ -124,8 +124,3 @@ class WidgetFactory extends WidgetContainer
 	}
 
 }
-
-
-
-
-
