@@ -2,11 +2,7 @@
 # AlphaWidget — Widgets For Laravel 5
 ----------------------------------------
 
-This is a very simple, easy to use Widget manager for [Laravel 5](http://laravel.com) (A version for Laravel 4.2 might come).
-
-> **Note!** 
-> This package won't hit version `1.0.0` until I write the tests for it.
-> Which would probably take a while...
+This is a very simple, easy to use Widget manager for [Laravel 5](http://laravel.com) 
 
 ## Installation
 
