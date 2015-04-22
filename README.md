@@ -8,7 +8,7 @@ This is a very simple, easy to use Widget manager for [Laravel 5](http://laravel
 
 First, install the package via [Composer](https://getcomposer.org/).
 ```bash
-$ composer require breda/laravel-alphaWidget
+$ composer require breda/laravel-alpha-widget
 ```
 
 in the `config/app.php` file, add the Service Provider
